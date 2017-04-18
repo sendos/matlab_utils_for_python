@@ -24,7 +24,7 @@ Below is some sample Matlab code that was transformed into Python code that uses
 <table>
 <tr><th>Matlab code</th><th>Python code</th></tr>
 <tr><td colspan="2">
-<img src="https://cloud.githubusercontent.com/assets/1019930/25138827/7cbedd04-2453-11e7-8fbf-df5295887587.png">
+<img src="https://cloud.githubusercontent.com/assets/1019930/25139464/369c8432-2455-11e7-8378-4af55cb18553.png">
  </td></tr>
 </table>
 
