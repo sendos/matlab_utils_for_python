@@ -1,5 +1,5 @@
 # Matlab-like utils for Python
-Library that provides access to Matlab-like functions in Python
+This is a library that provides access to Matlab-like functions in Python
 
 Currently supported:
 
@@ -34,4 +34,22 @@ Note: The resulting code is not very "Pythonic", which is OK for the purposes of
 
 
 
+## Installation and Usage
+
+No installation required beyond downloading matlab_utils.py into your current folder or anywhere in Python's load path. Make sure you have NumPy installed with your Python.
+
+Then, in your Python scripts add the following
+```python
+from matlab_utils import *
+```
+and use the functions included in the module. As mentioned above, currently supported are the following functions:
+
+    ischar, datenum, datestr, isempty, fopen, fclose, fprintf, sprintf, size,
+    find, regexprep, regexp, regexpi, randn, rand, ones, zeros, error, length
+    
+as well as marray and mrange, examples of which are given above.
+
+## Authors
+
+* **Andrew Sendonaris** - [sendoswww](https://github.com/sendoswww)
 
