@@ -51,5 +51,5 @@ as well as marray and mrange, examples of which are given above.
 
 ## Authors
 
-* **Andrew Sendonaris** - [sendoswww](https://github.com/sendoswww)
+* **Andrew Sendonaris** - [sendos](https://github.com/sendos)
 
