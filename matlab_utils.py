@@ -149,6 +149,38 @@ class marray(object):
     def __rsub__(self, other):
         result = other - self.array
         return result[0] if len(result) == 1 else marray(result)
+      
+    def __mul__(self, other):
+        result = self.array * other
+        return result[0] if len(result) == 1 else marray(result)
+    
+    def __rmul__(self, other):
+        result = self.array * other
+        return result[0] if len(result) == 1 else marray(result)
+    
+    def __truediv__(self, other):
+        result = self.array/other
+        return result[0] if len(result) == 1 else marray(result)
+    
+    def __rtruediv__(self, other):
+        result = other/self.array
+        return result[0] if len(result) == 1 else marray(result)
+    
+    def __lt__(self, other):
+        result = (self.array < other)
+        return result[0] if len(result) == 1 else marray(result)
+   
+    def __le__(self, other):
+        result = (self.array <= other)
+        return result[0] if len(result) == 1 else marray(result)
+
+    def __gt__(self, other):
+        result = (self.array > other)
+        return result[0] if len(result) == 1 else marray(result)
+
+    def __ge__(self, other):
+        result = (self.array >= other)
+        return result[0] if len(result) == 1 else marray(result)
 
     @property
     def size(self):
